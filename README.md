@@ -1,4 +1,4 @@
-# Slush Isinn-backette [![Build Status](https://secure.travis-ci.org/iansinnott/slush-isinn-backette.png?branch=master)](https://travis-ci.org/iansinnott/slush-isinn-backette) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-isinn-backette.png)](http://badges.enytc.com/for/npm/slush-isinn-backette)
+# Slush Isinn-backette [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-isinn-backette.png)](http://badges.enytc.com/for/npm/slush-isinn-backette)
 
 > Backbone + Marionette + Stylus
 
@@ -16,13 +16,13 @@ $ npm install -g slush-isinn-backette
 Create a new folder for your project:
 
 ```bash
-$ mkdir my-slush-isinn-backette
+$ mkdir my-backbone-marionette-project
 ```
 
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-isinn-backette && slush isinn-backette
+$ cd my-backbone-marionette-project && slush isinn-backette
 ```
 
 ## Getting To Know Slush
@@ -33,11 +33,8 @@ Slush does not contain anything "out of the box", except the ability to locate i
 
 To find out more about Slush, check out the [documentation](https://github.com/slushjs/slush).
 
-## Contributing
+## Issues
 
-See the [CONTRIBUTING Guidelines](https://github.com/iansinnott/slush-isinn-backette/blob/master/CONTRIBUTING.md)
-
-## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/iansinnott/slush-isinn-backette/issues).
 
 ## License 
