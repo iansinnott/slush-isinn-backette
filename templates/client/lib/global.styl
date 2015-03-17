@@ -1,0 +1,108 @@
+@require 'typographic'
+
+global-reset()
+
+t-presets(major-sixth)
+
+// Vars {{{
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+vspace = 25px
+
+// }}} END Vars
+
+// Mixins {{{
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+right-nav()
+  float right
+  text-align right
+  display table
+
+  li
+    display table-cell
+    vertical-align middle
+
+  a
+    line-height 50px
+    display inline-block
+    padding 0 20px
+    color lighten(black, 40%)
+    text-shadow 0 1px 0 white
+
+    &:first-child
+      margin-left 0
+
+    &.active
+    &:hover
+      background silver
+      color black
+
+
+// }}} END Mixins
+
+// General {{{
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+*
+  box-sizing border-box
+
+html
+body
+.app
+  height 100%
+
+body
+  background #fafafa
+  font-family helvetica
+  color black
+
+a
+  color blue
+  text-decoration none
+  &:hover
+    color darken(blue, 20%)
+
+
+ul
+  margin 0
+  padding 0
+
+h1
+h2
+h3
+h4
+  margin-bottom 0
+  font-weight 200
+
+h2
+h3
+h4
+p
+  margin-bottom (vspace / 2)
+
+h1
+  margin-bottom vspace
+
+h2
+  font-weight 100
+
+
+.container
+  clearfix()
+  margin 0 auto
+  max-width 1100px
+  padding 0 2%
+
+// Sticky footer
+.app-main
+  min-height 100%
+  margin-bottom -50px
+
+.push
+.sticky-footer
+  height 50px
+
+
+// }}} END General
+
